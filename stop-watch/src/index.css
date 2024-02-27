@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+.display {
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 25px;
+}
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  transition: background-color0.5s ease;
+}
+.startBtn {
+  background-color: green;
+}
+.stopBtn {
+  background-color: red;
+}
+.resetBtn {
+  background-color: yellowgreen;
+}
